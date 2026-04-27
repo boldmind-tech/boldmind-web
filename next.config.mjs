@@ -6,7 +6,6 @@ const nextConfig = {
     '@boldmind-tech/utils',
     '@boldmind-tech/api-client',
     '@boldmind-tech/analytics',
-    '@boldmind-tech/pwa',
   ],
 
   output: 'standalone',
@@ -16,6 +15,7 @@ const nextConfig = {
       { protocol: 'https', hostname: '**.boldmind.ng' },
       { protocol: 'https', hostname: '**.amebogist.ng' },
       { protocol: 'https', hostname: '**.educenter.com.ng' },
+      { protocol: 'https', hostname: '**.villagecircle.ng'},
       { protocol: 'https', hostname: 'res.cloudinary.com' },
       { protocol: 'https', hostname: 'lh3.googleusercontent.com' },
       { protocol: 'https', hostname: 'avatars.githubusercontent.com' },

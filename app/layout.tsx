@@ -5,10 +5,9 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import { BoldMindLayout } from './boldmindLayout';
-import { CookieConsent } from '@boldmind/ui';
+import { CookieConsent } from '@boldmind-tech/ui';
 import { ClientErrorBoundary } from './components/ClientErrorBoundary';
 import { AuthProvider } from '@boldmind-tech/auth';
-import '@boldmind-tech/ui/dist/index.css';
 import './globals.css';
 
 const inter = Inter({
@@ -36,6 +35,8 @@ export const metadata: Metadata = {
     'PlanAI Suite',
     'AmeboGist',
     'EduCenter Nigeria',
+    'VillageCircle',
+    'vibe coders',
     'BoldMind OS',
     'Nigerian tech ecosystem',
     'African technology',

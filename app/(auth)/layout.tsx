@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -15,7 +15,7 @@ const brand = {
   muted:     'var(--product-muted)',
 } as const;
 
-export default function AuthLayout({ children }: { children: React.ReactNode }) {
+function AuthLayoutInner({ children }: { children: React.ReactNode }) {
   const { user, isLoading } = useAuth();
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -268,6 +268,14 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
         </div>
       </div>
     </div>
+  );
+}
+
+export default function AuthLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <Suspense fallback={<div className="min-h-screen" style={{ background: 'var(--product-background)' }} />}>
+      <AuthLayoutInner>{children}</AuthLayoutInner>
+    </Suspense>
   );
 }
 

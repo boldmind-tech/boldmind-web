@@ -9,23 +9,20 @@ importers:
   .:
     dependencies:
       '@boldmind-tech/analytics':
-        specifier: 4.0.0
-        version: 4.0.0(@boldmind-tech/utils@4.0.0(react@18.3.1))(react@18.3.1)
+        specifier: 5.0.1
+        version: 5.0.1(@boldmind-tech/utils@4.1.1(react@18.3.1))(react@18.3.1)
       '@boldmind-tech/api-client':
-        specifier: 4.0.0
-        version: 4.0.0(@boldmind-tech/utils@4.0.0(react@18.3.1))
+        specifier: 5.0.1
+        version: 5.0.1(@boldmind-tech/utils@4.1.1(react@18.3.1))
       '@boldmind-tech/auth':
-        specifier: 4.0.0
-        version: 4.0.0(@boldmind-tech/utils@4.0.0(react@18.3.1))(@types/react@18.3.28)(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
-      '@boldmind-tech/pwa':
-        specifier: 4.0.0
-        version: 4.0.0(@boldmind-tech/utils@4.0.0(react@18.3.1))
+        specifier: 5.0.1
+        version: 5.0.1(@boldmind-tech/utils@4.1.1(react@18.3.1))(@types/react@18.3.28)(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@boldmind-tech/ui':
-        specifier: 4.0.0
-        version: 4.0.0(@boldmind-tech/auth@4.0.0(@boldmind-tech/utils@4.0.0(react@18.3.1))(@types/react@18.3.28)(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1))(@boldmind-tech/utils@4.0.0(react@18.3.1))(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@3.4.19)
+        specifier: 5.0.1
+        version: 5.0.1(@boldmind-tech/auth@5.0.1(@boldmind-tech/utils@4.1.1(react@18.3.1))(@types/react@18.3.28)(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1))(@boldmind-tech/utils@4.1.1(react@18.3.1))(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@3.4.19)
       '@boldmind-tech/utils':
-        specifier: 4.0.0
-        version: 4.0.0(react@18.3.1)
+        specifier: 4.1.1
+        version: 4.1.1(react@18.3.1)
       '@types/node':
         specifier: ^20.11.5
         version: 20.19.39
@@ -94,44 +91,36 @@ packages:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
 
-  '@boldmind-tech/analytics@4.0.0':
-    resolution: {integrity: sha512-2G9bx7mCzT1Os2dlmP1XmeXQK//ulfxD28j9+m2PncU5gvyuXCeD8yFeQbY69+C8GECBEyxGXm2JgLloViBpSg==, tarball: https://npm.pkg.github.com/download/@boldmind-tech/analytics/4.0.0/366a524e9f4e4a08606a99912f24c707b7bacf3d}
+  '@boldmind-tech/analytics@5.0.1':
+    resolution: {integrity: sha512-bDtKHNLgTfQG5hg9bm5+43TMzuhzCVtQW+aBznmbj0qZoc4Kp0V4v0FAU7T2o5FemAGRTXvRxfE49Sqf3e5rfg==, tarball: https://npm.pkg.github.com/download/@boldmind-tech/analytics/5.0.1/125d7495ac17aa30cebeaeb7ba444b39423767d1}
     peerDependencies:
-      '@boldmind-tech/utils': 4.0.0
+      '@boldmind-tech/utils': 4.1.1
       react: '>=18'
-    peerDependenciesMeta:
-      react:
-        optional: true
 
-  '@boldmind-tech/api-client@4.0.0':
-    resolution: {integrity: sha512-MnN5rDz11jGyj/Xj9NPh1VeGHnjb1GLD6AoJblnz8OKtUOpi3WhATjojYIW/Iq3OfLF9+Uk9Z2023o0WKKPS8Q==, tarball: https://npm.pkg.github.com/download/@boldmind-tech/api-client/4.0.0/940c4084f1ac4a241848d238fd30030fb256cdbb}
+  '@boldmind-tech/api-client@5.0.1':
+    resolution: {integrity: sha512-OSwZLDmAg14MyTR0e16rbCbePivW0qmc5e1zUNIYDNewivG55BOnkYVvgVlLWo+Pm9v6sbhmcNkdbM7aRhvc+A==, tarball: https://npm.pkg.github.com/download/@boldmind-tech/api-client/5.0.1/6fad59fc15a31e3432b144fe11da8801dd385e71}
     peerDependencies:
-      '@boldmind-tech/utils': 4.0.0
+      '@boldmind-tech/utils': 4.1.1
 
-  '@boldmind-tech/auth@4.0.0':
-    resolution: {integrity: sha512-uztkzua8excM65ZfQNTanLMjlhubsZBDcXeek/+1k/CR/bNTFiCAWOOKKs2Gt0daumrBk7sarBGOqx5sZ4bBCA==, tarball: https://npm.pkg.github.com/download/@boldmind-tech/auth/4.0.0/f40d8fbedd1d124de0772842fdcc1ebf5840162b}
+  '@boldmind-tech/auth@5.0.1':
+    resolution: {integrity: sha512-QKZUH6xY9ntTKUDAk2bmw9TkKUs3Sj6cwScxDOsxf6EB7rv0JOZrIaLcAsUuh/vsWRlicuwR/J1c2IqfeKHP5A==, tarball: https://npm.pkg.github.com/download/@boldmind-tech/auth/5.0.1/c51dc651baebd0241bcfbe49de721a6bce485b57}
     peerDependencies:
-      '@boldmind-tech/utils': 4.0.0
+      '@boldmind-tech/utils': 4.1.1
       next: '>=14'
       react: '>=18'
 
-  '@boldmind-tech/pwa@4.0.0':
-    resolution: {integrity: sha512-D5nefITzZpMFjku7swJ6HjR9BwR88SSBf0dZpL4fcHZXBgbHqlD+pLMrwkR1vHjd1jzSb8Wj4jIH/CEaSvyBDQ==, tarball: https://npm.pkg.github.com/download/@boldmind-tech/pwa/4.0.0/18e7f9558760666bf764df4d2bf6e38bf3df2214}
+  '@boldmind-tech/ui@5.0.1':
+    resolution: {integrity: sha512-jSDYpUEhDF2PKnS+NdC9Dnlzqvxq1z2RrrM9HWz1sZlt2t5RtK9fgtO1s/wgSJuAFKweq3M13WSBenWu4oZhBA==, tarball: https://npm.pkg.github.com/download/@boldmind-tech/ui/5.0.1/0670d15854956140618adf58e1216a56e6dcc8b4}
     peerDependencies:
-      '@boldmind-tech/utils': 4.0.0
-
-  '@boldmind-tech/ui@4.0.0':
-    resolution: {integrity: sha512-TAkxT1vnz748tMIzKrlJnsCbwcOEvbTub5QEaJdOMFArkKTmalUjaqx7qRDuexnejc3m866BuFyE8oUd5w0q4Q==, tarball: https://npm.pkg.github.com/download/@boldmind-tech/ui/4.0.0/ddc19fc73508ab1bbba19c2d8cbd625b7cf0de51}
-    peerDependencies:
-      '@boldmind-tech/auth': 4.0.0
-      '@boldmind-tech/utils': 4.0.0
+      '@boldmind-tech/auth': 5.0.1
+      '@boldmind-tech/utils': 4.1.1
       next: '>=14'
       react: '>=18'
       react-dom: '>=18'
       tailwindcss: '>=3.4'
 
-  '@boldmind-tech/utils@4.0.0':
-    resolution: {integrity: sha512-eHHHkrfBE+vRTkIeo/qT4BxfZFubDecY4OWHm7IOOkWUQicprSAH7lGrKV4bEgdcxsWyfwye7x+7uGeTi2kmZA==, tarball: https://npm.pkg.github.com/download/@boldmind-tech/utils/4.0.0/dd78f948fe3498cc5f2ce506ec6af6496caafc64}
+  '@boldmind-tech/utils@4.1.1':
+    resolution: {integrity: sha512-ShRND0n5YZqVtIWfSu4YPzo36t2zsWp4b7WB/sHAnQYgQFZRC1IxfHRzn2cFDHjqKYoinQWsriUzgxx+7SNonA==, tarball: https://npm.pkg.github.com/download/@boldmind-tech/utils/4.1.1/63adbdd00dea9379523646b1d94c26e9adec155c}
     peerDependencies:
       react: '>=18'
     peerDependenciesMeta:
@@ -2313,12 +2302,6 @@ packages:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
 
-  workbox-core@7.4.0:
-    resolution: {integrity: sha512-6BMfd8tYEnN4baG4emG9U0hdXM4gGuDU3ectXuVHnj71vwxTFI7WOpQJC4siTOlVtGqCUtj0ZQNsrvi6kZZTAQ==}
-
-  workbox-window@7.4.0:
-    resolution: {integrity: sha512-/bIYdBLAVsNR3v7gYGaV4pQW3M3kEPx5E8vDxGvxo6khTrGtSSCS7QiFKv9ogzBgZiy0OXLP9zO28U/1nF1mfw==}
-
   wrap-ansi@7.0.0:
     resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}
     engines: {node: '>=10'}
@@ -2353,23 +2336,22 @@ snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
 
-  '@boldmind-tech/analytics@4.0.0(@boldmind-tech/utils@4.0.0(react@18.3.1))(react@18.3.1)':
+  '@boldmind-tech/analytics@5.0.1(@boldmind-tech/utils@4.1.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@boldmind-tech/utils': 4.0.0(react@18.3.1)
+      '@boldmind-tech/utils': 4.1.1(react@18.3.1)
       posthog-js: 1.372.6
-    optionalDependencies:
       react: 18.3.1
 
-  '@boldmind-tech/api-client@4.0.0(@boldmind-tech/utils@4.0.0(react@18.3.1))':
+  '@boldmind-tech/api-client@5.0.1(@boldmind-tech/utils@4.1.1(react@18.3.1))':
     dependencies:
-      '@boldmind-tech/utils': 4.0.0(react@18.3.1)
+      '@boldmind-tech/utils': 4.1.1(react@18.3.1)
       axios: 1.15.2
     transitivePeerDependencies:
       - debug
 
-  '@boldmind-tech/auth@4.0.0(@boldmind-tech/utils@4.0.0(react@18.3.1))(@types/react@18.3.28)(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
+  '@boldmind-tech/auth@5.0.1(@boldmind-tech/utils@4.1.1(react@18.3.1))(@types/react@18.3.28)(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@boldmind-tech/utils': 4.0.0(react@18.3.1)
+      '@boldmind-tech/utils': 4.1.1(react@18.3.1)
       jose: 5.10.0
       next: 14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
@@ -2378,15 +2360,10 @@ snapshots:
       - '@types/react'
       - immer
 
-  '@boldmind-tech/pwa@4.0.0(@boldmind-tech/utils@4.0.0(react@18.3.1))':
+  '@boldmind-tech/ui@5.0.1(@boldmind-tech/auth@5.0.1(@boldmind-tech/utils@4.1.1(react@18.3.1))(@types/react@18.3.28)(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1))(@boldmind-tech/utils@4.1.1(react@18.3.1))(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@3.4.19)':
     dependencies:
-      '@boldmind-tech/utils': 4.0.0(react@18.3.1)
-      workbox-window: 7.4.0
-
-  '@boldmind-tech/ui@4.0.0(@boldmind-tech/auth@4.0.0(@boldmind-tech/utils@4.0.0(react@18.3.1))(@types/react@18.3.28)(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1))(@boldmind-tech/utils@4.0.0(react@18.3.1))(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@3.4.19)':
-    dependencies:
-      '@boldmind-tech/auth': 4.0.0(@boldmind-tech/utils@4.0.0(react@18.3.1))(@types/react@18.3.28)(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
-      '@boldmind-tech/utils': 4.0.0(react@18.3.1)
+      '@boldmind-tech/auth': 5.0.1(@boldmind-tech/utils@4.1.1(react@18.3.1))(@types/react@18.3.28)(next@14.2.35(@opentelemetry/api@1.9.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+      '@boldmind-tech/utils': 4.1.1(react@18.3.1)
       class-variance-authority: 0.7.1
       clsx: 2.1.1
       framer-motion: 11.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -2400,7 +2377,7 @@ snapshots:
     transitivePeerDependencies:
       - '@emotion/is-prop-valid'
 
-  '@boldmind-tech/utils@4.0.0(react@18.3.1)':
+  '@boldmind-tech/utils@4.1.1(react@18.3.1)':
     dependencies:
       date-fns: 3.6.0
       date-fns-tz: 3.2.0(date-fns@3.6.0)
@@ -2676,7 +2653,8 @@ snapshots:
       '@types/prop-types': 15.7.15
       csstype: 3.2.3
 
-  '@types/trusted-types@2.0.7': {}
+  '@types/trusted-types@2.0.7':
+    optional: true
 
   '@typescript-eslint/eslint-plugin@8.59.1(@typescript-eslint/parser@8.59.1(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3)':
     dependencies:
@@ -4885,13 +4863,6 @@ snapshots:
       isexe: 2.0.0
 
   word-wrap@1.2.5: {}
-
-  workbox-core@7.4.0: {}
-
-  workbox-window@7.4.0:
-    dependencies:
-      '@types/trusted-types': 2.0.7
-      workbox-core: 7.4.0
 
   wrap-ansi@7.0.0:
     dependencies:

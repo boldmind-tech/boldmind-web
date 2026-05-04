@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://boldmind.ng'),
   title: {
     default: 'BoldMind',
-    template: `%s | BoldMind NG`,
+    template: `%s | BoldMind`,
   },
   description: 'Building systems that shift nations',
   applicationName: 'BoldMind',

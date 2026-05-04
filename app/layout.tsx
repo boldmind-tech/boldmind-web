@@ -11,7 +11,7 @@ const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
   display: 'swap',
-  preload: false, // OpenDyslexic is the default; don't block on Inter
+  preload: false, 
 });
 
 const BASE_URL =

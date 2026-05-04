@@ -77,7 +77,7 @@ function useResendCooldown(seconds = 60) {
 
     setIsVerifying(true);
     try {
-      await apiPost('/auth/verify-email', { email, code });
+      await apiPost('/auth/verify-email', { email, code, 'purpose': 'email_verify' });
       setVerified(true);
       toast.success('Email verified!');
       setTimeout(() => router.push('/onboarding'), 1500);

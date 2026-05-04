@@ -11,7 +11,7 @@ interface BoldMindLayoutProps {
 
 const BOLDMIND_HUB_THEME: ProductThemeType = {
   slug: 'boldmind-hub',
-  name: 'BoldMind — Building Systems That Shift Nations | Nigerian Tech Ecosystem',
+  name: 'BoldMind — Building Systems That Shift Nations',
   description: 'BoldMind is Nigeria\'s AI-first tech ecosystem — four pillars, one account. AmeboGist (Pidgin media, 12K+ readers), VillageCircle (conviction & venture studio), EduCenter (JAMB/WAEC prep + AI skills, 50K+ students), PlanAI (AI business tools, 650+ businesses). Built in Lagos.',
   icon: '🚀',
   status: 'LIVE',

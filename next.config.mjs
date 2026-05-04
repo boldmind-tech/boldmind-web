@@ -36,16 +36,6 @@ const nextConfig = {
     externalDir: true,
   },
 
-  webpack: (config) => {
-    config.resolve.symlinks = true;
-    // Fix packages whose exports map points to .mjs but only .js was built
-    const brokenMjsPackages = ['analytics', 'auth', 'pwa'];
-    for (const pkg of brokenMjsPackages) {
-      config.resolve.alias[`@boldmind-tech/${pkg}`] =
-        `${process.cwd()}/node_modules/@boldmind-tech/${pkg}/dist/index.js`;
-    }
-    return config;
-  },
 
   async headers() {
     return [
